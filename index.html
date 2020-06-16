@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Form Validation with HTML APi</title>
 
-  <link rel="stylesheet" href="style.css"/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"/>
-  
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap">
+
   <script scr="script.js" defer></script>
 </head>
+
 <body>
-  <h2 style="height: 100vh; display:flex; justify-content: center; align-items: center;">
-    Let's Code
-  </h2>
+  <form action="">
+    <h2>
+      Entrar na lista
+    </h2>
+
+    <div class="input">
+      <input required type="text">
+      <label>Nome</label>
+      <span class="error"></span>
+    </div>
+
+    <div class="input">
+      <input required type="email">
+      <label>Email</label>
+      <span class="error"></span>
+    </div>
+
+    <button type="submit">Enviar</button>
+  </form>
 </body>
+
 </html>
