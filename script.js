@@ -24,7 +24,7 @@ function ValidateField(field){
       },
       email: {
         valueMissing: "Email é obrigatório",
-        typeMismatch: "Por favor, preencha este campo"
+        typeMismatch: "Por favor, preencha um email válido"
       }
     }
 
